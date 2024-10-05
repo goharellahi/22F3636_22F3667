@@ -19,4 +19,12 @@ public class Library {
         library.addBook("To Kill a Mockingbird");
         library.listBooks();
     }
+    public void removeBook(String bookName) {
+        if (books.remove(bookName)) {
+            System.out.println(bookName + " removed from the library.");
+        } else {
+            System.out.println(bookName + " not found in the library.");
+        }
+    }
+
 }
