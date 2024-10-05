@@ -19,4 +19,7 @@ public class Library {
         library.addBook("To Kill a Mockingbird");
         library.listBooks();
     }
+    public boolean searchBook(String bookName) {
+        return books.contains(bookName);
+    }
 }
