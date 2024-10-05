@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Library {
+    // issue "Enhance performance of library class" done in this code
     private List<String> books = new ArrayList<>();
 
     public void addBook(String bookName) {
